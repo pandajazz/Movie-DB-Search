@@ -23,19 +23,19 @@ describe('Main Component', () => {
             }
     ];
 
-	it('should has a title', () => {
+	it('should have a title', () => {
         expect(wrapper.contains('The Movie DB')).toEqual(true);
 	});
 
-	it('should has a state with a movie array', () => {
+	it('should have a state with a movie array', () => {
 		    expect(wrapper.state().movies).toEqual([]);
 	});
 
-	it('should has a list of buttons', () => {
+	it('should have a list of buttons', () => {
         expect(wrapper.find(MovieButton)).toHaveLength(4);
 	});
 
-	it('should has a list of Movies', () => {
+	it('should have a list of Movies', () => {
         wrapper.setState({movies: movies});
         expect(wrapper.find(MovieCard)).toHaveLength(2);
 	});
