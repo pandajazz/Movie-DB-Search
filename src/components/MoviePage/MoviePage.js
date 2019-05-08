@@ -1,5 +1,5 @@
 import React from 'react';
-let imageUrl = 'https://image.tmdb.org/t/p/w1280/';
+let imageUrl = 'https://image.tmdb.org/t/p/w300/';
 
 
 
