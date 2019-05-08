@@ -1,0 +1,59 @@
+.mainDiv {
+    display: flex;
+    width: 476px;
+    margin: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+div.mainDiv:hover {
+    background-color: #009595;
+    color: white;
+}
+
+.img {
+    overflow: hidden;
+    display: block;
+    width: 188px;
+    height: 278px
+}
+
+.description {
+    position: relative;
+    width: 298px;
+    height: 278px;
+    box-sizing: border-box;
+    padding: 10px 16px 16px 16px;
+    display: block;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movieDescription {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+    width: 80%;
+    align-items: center;
+    word-wrap: break-word;
+    max-height: 130px;
+    line-height: 1.2em;
+    padding: 0;
+}
+
+.moreInfo {
+    border-top: 1px solid #e3e3e3;
+    position: absolute;
+    bottom: 0;
+    padding: 16px;
+}
+
+@media(max-width: 500px) {
+    .title {
+        margin-right: 42px;
+    }
+}
